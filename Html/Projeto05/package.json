@@ -1,0 +1,35 @@
+{
+  "name": "projeto05",
+  "version": "1.0.0",
+  "description": "tela de login e sena",
+  "main": "index.js",
+  "scripts": {
+    "test": "senha autenticator node.sj"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueDiomedes/Portifolio.git"
+  },
+  "keywords": [
+    "login",
+    "senha",
+    "autenticador",
+    "javascript",
+    "node.sj",
+    "html",
+    "css"
+  ],
+  "author": "Henrique Diomedes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenriqueDiomedes/Portifolio/issues"
+  },
+  "homepage": "https://github.com/HenriqueDiomedes/Portifolio#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
